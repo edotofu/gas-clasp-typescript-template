@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "build": "rimraf dist && webpack && cpx appsscript.json dist",
+    "deploy": "yarn build && clasp push"
+  }
+}
