@@ -6,7 +6,7 @@ module.exports = {
         main: path.join(__dirname, 'src', 'main.ts')
     },
     output: {
-        filename: '[name].ts',
+        filename: '[name].js',
         path: path.join(__dirname, 'dist')
     },
     module: {
